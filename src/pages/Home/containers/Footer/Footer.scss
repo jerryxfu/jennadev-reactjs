@@ -1,0 +1,30 @@
+.footer {
+    width: 100%;
+    padding: 2rem 10% 0.5rem;
+    background-color: var(--footer-color);
+
+    @media screen and (max-width: 480px) {
+        padding: 1rem 8% 0.5rem;
+    }
+}
+
+.footer__shadow {
+    width: 100vw;
+    box-shadow: 0 0 48px 32px var(--footer-color);
+    transition: box-shadow 0.5s;
+}
+
+.footer__sites {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+
+    h4 {
+        margin-bottom: 0.80rem;
+    }
+
+    a {
+        line-height: 1.75;
+    }
+}
